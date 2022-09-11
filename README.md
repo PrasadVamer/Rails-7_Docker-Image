@@ -19,13 +19,18 @@ Now, let's access http://localhost:3000/ and check if Rails is working properly.
 ## You are good to go ##
 You will get the following web page.
 
-![Rails7 0 4](https://user-images.githubusercontent.com/98350622/189521802-74d8a5a5-946b-417e-86ce-bc52fe091a16.png)
+![Bootstrap5 2 0](https://user-images.githubusercontent.com/113204580/189523622-f7a4cc09-1d89-4a8c-8c8c-968f3907bc8a.png)
 
 ## Common commands ###
 
 #### to create the database ####
     
     docker-compose run web rake db:create
+
+### generate controller ###
+
+    docker-compose exec web rails g controller home index
+
 ### rails console ####
 
     docker-compose exec web rails console
